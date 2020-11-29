@@ -1,4 +1,5 @@
 <?php
+if(isset($_POST['submit'])){
 	$field_name = $_POST['name'];
 	$field_surname = $_POST['surname'];
 	$field_email = $_POST['email'];
@@ -29,4 +30,5 @@
 			window.location = 'index.html';
 		</script>
 	}
+}
 ?>
